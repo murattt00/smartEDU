@@ -11,4 +11,9 @@ exports.getAboutPage = (req, res) => {
         page_name: "about",
     });
 };
-    
+
+exports.getContactPage = (req, res) => {
+    res.render('contact', {
+        page_name: "contact",
+    });
+};
