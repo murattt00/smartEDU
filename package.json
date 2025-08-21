@@ -1,0 +1,27 @@
+{
+  "name": "smartedu",
+  "version": "1.0.0",
+  "description": "smartedu project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murattt00/smartEDU.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murattt00/smartEDU/issues"
+  },
+  "homepage": "https://github.com/murattt00/smartEDU#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
