@@ -6,5 +6,7 @@ const router = express.Router();
 router.get('/', pageController.getHomePage);
 router.get('/about', pageController.getAboutPage);
 router.get('/contact', pageController.getContactPage);
+router.get('/register', pageController.getRegisterPage);
+router.get('/login', pageController.getLoginPage);
 
 module.exports = router;
